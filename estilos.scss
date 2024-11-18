@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'header';
+@import 'main';
+@import 'footer';
+
+@mixin caja_personalizada($color-principal,$ancho,$alto)
+{
+    background-color: $color-principal;
+    width: $ancho;
+    height: $alto;
+}
+
+
+
+
+
+
+
+

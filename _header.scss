@@ -1,0 +1,22 @@
+.arriba
+{
+    height: 20%;
+    display: flex;
+    column-gap: 5px;
+
+
+    .cajaizq
+    {
+    width: 50%;
+    height: 100%;
+    background-color: $color-secundario;
+    }
+
+    .cajader
+    {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    }
+
+}
