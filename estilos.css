@@ -18,11 +18,19 @@
   height: 50%;
   display: flex;
   column-gap: 5px;
+  margin-bottom: 5px;
 }
 .medio .tarjetas {
   height: 100%;
   width: 100%;
   background-color: rgb(171, 28, 28);
+  transition-property: width;
+  transition-duration: 200ms;
+}
+
+.tarjetas:hover {
+  width: 105%;
+  height: 101%;
 }
 
 .abajo {
