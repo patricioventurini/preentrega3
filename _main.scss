@@ -2,21 +2,27 @@
 {
     height: 50%;
     display: flex;
-    column-gap: 5px;
+    column-gap: 10px;
     margin-bottom: 5px;
-
 
     .tarjetas
     {
     height: 100%;
     width: 100%;
-    background-color: rgb(171, 28, 28);
     transition-property: width;
     transition-duration: 200ms;
+    }
+
+    .catalogo
+    {
+        height: 100%;
+        width: 100%;
+        border-radius:20px;
     }
 }
 
 .tarjetas:hover{
     width: 105%;
     height: 101%;
+    
 }

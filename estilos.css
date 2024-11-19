@@ -8,24 +8,35 @@
   height: 100%;
   background-color: green;
 }
+.arriba .cajaizq .banner {
+  height: 100%;
+  width: 100%;
+}
 .arriba .cajader {
   width: 50%;
   height: 100%;
-  background-color: rgb(255, 0, 0);
+}
+.arriba .cajader .logo {
+  height: 125px;
+  width: 125px;
 }
 
 .medio {
   height: 50%;
   display: flex;
-  column-gap: 5px;
+  column-gap: 10px;
   margin-bottom: 5px;
 }
 .medio .tarjetas {
   height: 100%;
   width: 100%;
-  background-color: rgb(171, 28, 28);
   transition-property: width;
   transition-duration: 200ms;
+}
+.medio .catalogo {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
 }
 
 .tarjetas:hover {

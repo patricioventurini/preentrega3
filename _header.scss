@@ -10,13 +10,26 @@
     width: 50%;
     height: 100%;
     background-color: $color-secundario;
+
+    .banner
+        {
+            height: 100%;
+            width: 100%;
+        }
     }
 
     .cajader
     {
     width: 50%;
     height: 100%;
-    background-color: rgb(255, 0, 0);
+
+
+    .logo
+        {
+        height: 125px;
+        width: 125px;
+        }
     }
 
+    
 }
