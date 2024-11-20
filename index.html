@@ -5,86 +5,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-    <style>
-        /* Estilos personalizados */
-        body {
-        margin: 0;
-        font-family: 'Arial', sans-serif;
-        }
-    
-        .navbar {
-        background-color: #ffffff; /* Fondo blanco */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
-        padding: 1rem 2rem;
-        transition: background-color 0.3s ease, box-shadow 0.3s ease;
-        }
-    
-        .navbar-brand {
-        font-size: 1.8rem;
-        font-weight: 700;
-        color: #007bff;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        transition: color 0.3s ease;
-        }
-    
-        .navbar-brand:hover {
-          color: #0056b3; /* Color más oscuro en hover */
-        }
-    
-        .navbar-nav .nav-link {
-        font-size: 1rem;
-        margin-left: 1rem;
-        color: #555;
-        font-weight: 500;
-        transition: color 0.3s ease, transform 0.3s ease;
-        }
-    
-        .navbar-nav .nav-link:hover {
-        color: #007bff;
-        transform: translateY(-2px);
-        }
-    
-        .btn-highlight {
-        background-color: #007bff;
-        color: #fff;
-        font-size: 1rem;
-        font-weight: bold;
-        border: none;
-        border-radius: 25px;
-        padding: 0.5rem 1.5rem;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-    
-        .btn-highlight:hover {
-        background-color: #0056b3;
-        transform: scale(1.1);
-        }
-    
-        .navbar.scrolled {
-        background-color: #f8f9fa; /* Color al hacer scroll */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-    
-        @media (max-width: 992px) {
-        .navbar-nav .nav-link {
-            margin: 0.5rem 0;
-        }
-        .btn-highlight {
-            margin-top: 0.5rem;
-        }
-        }
-    </style>
 </head>
 <body>
     <div class="arriba">
         <div class="cajaizq"><img class="banner" src="fotos/pipeta fondo negro.jpg"></div>
         <div class="cajader">
             
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg fixed-top">
                 <div class="container">
-                <a class="navbar-brand" href=""><img class="logo" src="fotos/nike texto.jpg"></a>
+                <a class="navbar-brand" href="#"><img class="logo" src="fotos/Logo_nike_principal.jpg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -103,9 +32,10 @@
                         <a class="nav-link" href="#contacto">Ropa</a>
                     </li>
                     </ul>
+                    
                 </div>
                 </div>
-            </nav>        
+            </nav>    
         </div>
     </div>
 
@@ -116,9 +46,56 @@
     </div>
 
     <div class="abajo">
-        <div class="informacion">ubicacion</div>
-        <div class="informacion">img</div>
-        <div class="informacion">redes</div>
+        
+    
+        
+            <div class="container">
+            <div class="row text-center text-md-start">
+                <!-- Logo -->
+                <div class="col-md-4 mb-4 mb-md-0 footer-logo text-center">
+                <img src="https://via.placeholder.com/150" alt="Logo de la empresa">
+                </div>
+                <!-- Ubicación -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="footer-heading">Ubicación</h5>
+                <p>
+                    Calle Ficticia 123<br>
+                    Ciudad, País<br>
+                    Teléfono: +123 456 789<br>
+                    Email: contacto@empresa.com
+                </p>
+                </div>
+                <!-- Redes sociales -->
+                <div class="col-md-4 footer-social text-center text-md-start">
+                <h5 class="footer-heading">Síguenos</h5>
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <!-- Pie de página -->
+            <div class="footer-bottom">
+                © 2024 Mi Empresa. Todos los derechos reservados.
+            </div>
+            </div>
+        
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     </div>
 
 
@@ -134,32 +111,3 @@
 
 
 
-<div class="container">
-    <div class="row">
-      <!-- Logo -->
-      <div class="col-md-4 text-center footer-logo">
-        <img src="https://via.placeholder.com/120" alt="Logo de la empresa">
-      </div>
-      <!-- Ubicación -->
-      <div class="col-md-4 text-center footer-location">
-        <h5>Ubicación</h5>
-        <p>
-          Calle Ficticia 123<br>
-          Ciudad, País<br>
-          Teléfono: +123 456 789
-        </p>
-      </div>
-      <!-- Redes sociales -->
-      <div class="col-md-4 text-center footer-social">
-        <h5>Síguenos</h5>
-        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-      </div>
-    </div>
-    <!-- Pie de página -->
-    <div class="footer-bottom">
-      © 2024 Mi Empresa. Todos los derechos reservados.
-    </div>
-  </div>
