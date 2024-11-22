@@ -1,11 +1,5 @@
-$color-principal:blue;
+$color-principal:#333;
 $color-secundario:green;
 $tamanio-fotos:200px;
 $tamanio-logos:50px;
 
-@mixin caja_personalizada($color-principal,$ancho,$alto)
-{
-    background-color: $color-principal;
-    width: $ancho;
-    height: $alto;
-}

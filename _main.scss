@@ -1,3 +1,4 @@
+
 .main-content {
     padding: 20px;
     background-color: #f4f4f4;
@@ -6,20 +7,25 @@
 .image-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centra las imágenes horizontalmente */
-    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; 
+    gap: 20px; 
+
+    a img{
+        height: 350px;
+        width: auto;
+    }
 }
 
 .image-container img {
-    width: 500px; /* Ancho fijo de las imágenes */
-    height: auto; /* Mantiene la proporción */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    transition: transform 0.3s ease; /* Animación suave al pasar el mouse */
+    width: 500px; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
 }
 
 .image-container img:hover {
-    transform: scale(1.05); /* Efecto zoom al pasar el mouse */
+    transform: scale(1.05); 
 }
 
 
@@ -39,4 +45,8 @@
         minmax(260px,1fr)
     );
     gap: 32px;
+}
+
+.mid img:hover{
+    transform: scale(1.03);
 }
